@@ -1,13 +1,14 @@
 package org.unijorge.core;
 
 public abstract class Animal {
-    //idade, sexo, nome cientifico, condicao, peso, tamanho
     private int idade;
     private double peso;
     private double tamanho;
     private String sexo;
     private String nomeCientifico;
     private String condicao;
+
+    //TODO: Fazer tratamento de dados em Getters e Setters
 
     public int getIdade() {
         return idade;
