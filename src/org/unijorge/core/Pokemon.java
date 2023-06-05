@@ -11,6 +11,8 @@ public class Pokemon extends Animal {
     public static int MAX_HP = 10;
     public static int MAX_DEF = 10;
     public static int MAX_LVL = 10;
+    //private ArraList<String> ataques;
+
 
     public int getLevel() {
         return level;
