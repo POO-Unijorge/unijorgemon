@@ -4,7 +4,7 @@ public abstract class Animal {
     private int idade;
     private double peso;
     private double tamanho;
-    private String sexo;
+    private Sexo sexo;
     private String nomeCientifico;
     private String condicao;
 
@@ -43,12 +43,12 @@ public abstract class Animal {
         this.tamanho = tamanho;
     }
 
-    public String getSexo() {
+    public Sexo getSexo() {
         return sexo;
     }
 
-    public void setSexo(String sexo) {
-        if (!sexo.equals("m") && !sexo.equals("f")) {
+    public void setSexo(Sexo sexo) {
+        if (sexo != Sexo.M && sexo != Sexo.F) {
             return;
         }
         this.sexo = sexo;
@@ -70,7 +70,7 @@ public abstract class Animal {
         this.condicao = condicao;
     }
 
-    public Animal(int idade, double peso, double tamanho, String sexo, String nomeCientifico) {
+    public Animal(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico) {
         this.idade = idade;
         this.peso = peso;
         this.tamanho = tamanho;
@@ -78,4 +78,5 @@ public abstract class Animal {
         this.nomeCientifico = nomeCientifico;
         this.condicao = "saudável";
     }
+    
 }

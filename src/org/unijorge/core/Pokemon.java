@@ -1,5 +1,7 @@
 package org.unijorge.core;
 
+//import java.util.ArrayList;
+
 public class Pokemon extends Animal {
     private int level;
     private int levelProgress;
@@ -7,13 +9,19 @@ public class Pokemon extends Animal {
     private int atk;
     private int def;
     private int spd;
+    public static int MAX_ATK= 10;
+    public static int MAX_HP= 10;
+    public static int MAX_DEF= 10;
+    public static int MAX_SPD= 10;
+    public static int MAX_LEVEL= 10;
+    //public ArrayList<String> 
 
     public int getLevel() {
         return level;
     }
 
     public void setLevel(int level) {
-        if (level <= 0) {
+        if (level <= MAX_LEVEL) {
             return;
         }
         this.level = level;
@@ -35,7 +43,7 @@ public class Pokemon extends Animal {
     }
 
     public void setHp(int hp) {
-        if (hp <= 0) {
+        if (hp <= MAX_HP) {
             return;
         }
         this.hp = hp;
@@ -46,7 +54,7 @@ public class Pokemon extends Animal {
     }
 
     public void setAtk(int atk) {
-        if (atk <= 0) {
+        if (atk <= MAX_ATK) {
             return;
         }
         this.atk = atk;
@@ -57,7 +65,7 @@ public class Pokemon extends Animal {
     }
 
     public void setDef(int def) {
-        if (def <= 0) {
+        if (def <= MAX_DEF) {
             return;
         }
         this.def = def;
@@ -68,14 +76,14 @@ public class Pokemon extends Animal {
     }
 
     public void setSpd(int spd) {
-        if (spd <= 0) {
+        if (spd <= MAX_SPD) {
             return;
         }
         this.spd = spd;
     }
 
     public Pokemon(
-        int idade, double peso, double tamanho, String sexo,
+        int idade, double peso, double tamanho, Sexo sexo,
         String nomeCientifico, int level, int levelProgress,
         int hp, int atk, int def, int spd
     ) {
@@ -87,4 +95,11 @@ public class Pokemon extends Animal {
         this.def = def;
         this.spd = spd;
     }
+
+    @Override
+    public String toString() {
+        return "Pokemon [level=" + level + ", levelProgress=" + levelProgress + ", hp=" + hp + ", atk=" + atk + ", def="
+                + def + ", spd=" + spd + "]";
+    }
+    
 }
