@@ -33,6 +33,4 @@ public class Ataque {
     public void setAcerto(double acerto) {
         this.acerto = acerto;
     }
-
-
 }

@@ -1,5 +1,6 @@
 package org.unijorge.core;
 
+
 //import java.util.ArrayList;
 
 public class Pokemon extends Animal {

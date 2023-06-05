@@ -1,5 +1,3 @@
-package org.unijorge.tema6;
-
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.Sexo;
 
