@@ -5,9 +5,19 @@ public class Ataque{
     // Procurar a melhor forma
     private String tipo;
     
-    
+    public void setDano(int dano) {
+		this.dano = dano;
+	}
 
-    public int getDano(){
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public int getDano(){
         return this.dano;
     }
 
@@ -18,6 +28,5 @@ public class Ataque{
     public String getTipo(){
         return this.tipo;
     }
-
-    
+   
 }
