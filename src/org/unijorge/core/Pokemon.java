@@ -7,6 +7,10 @@ public class Pokemon extends Animal {
     private int atk;
     private int def;
     private int spd;
+    public static int MAX_ATK = 10;
+    public static int MAX_HP = 10;
+    public static int MAX_DEF = 10;
+    public static int MAX_LVL = 10;
 
     public int getLevel() {
         return level;
