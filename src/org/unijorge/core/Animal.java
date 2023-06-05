@@ -1,4 +1,3 @@
-package org.unijorge.core;
 
 public abstract class Animal {
     private int idade;
