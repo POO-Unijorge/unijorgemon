@@ -73,4 +73,18 @@ public class Pokemon extends Animal {
         }
         this.spd = spd;
     }
+
+    public Pokemon(
+        int idade, double peso, double tamanho, String sexo,
+        String nomeCientifico, int level, int levelProgress,
+        int hp, int atk, int def, int spd
+    ) {
+        super(idade, peso, tamanho, sexo, nomeCientifico);
+        this.level = level;
+        this.levelProgress = levelProgress;
+        this.hp = hp;
+        this.atk = atk;
+        this.def = def;
+        this.spd = spd;
+    }
 }
