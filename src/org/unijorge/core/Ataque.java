@@ -9,6 +9,14 @@ public class Ataque {
     //tem que ve se vai ter isso mesmo
     private double acerto;
 
+
+    public Ataque(int dano, String nome, String tipo, double acerto){
+        this.dano = dano;
+        this.nome = nome;
+        this.tipo = tipo;
+        this.acerto = acerto;
+    }
+
     public int getDano() {
         return dano;
     }
