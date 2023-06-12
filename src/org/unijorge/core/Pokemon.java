@@ -7,7 +7,7 @@ public class Pokemon extends Animal {
     private int level;
     private int levelProgress;
     private int hp;
-    private int atk;
+    private Ataque atk;
     private int def;
     private int spd;
     public static int MAX_ATK= 10;
@@ -50,12 +50,12 @@ public class Pokemon extends Animal {
         this.hp = hp;
     }
 
-    public int getAtk() {
-        return atk;
+    public Ataque getAtk() {
+        return this.atk;
     }
 
-    public void setAtk(int atk) {
-        if (atk <= MAX_ATK) {
+    public void setAtk(Ataque atk) {
+        if (atk isnull) {
             return;
         }
         this.atk = atk;
