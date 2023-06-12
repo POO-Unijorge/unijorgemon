@@ -55,7 +55,7 @@ public class Pokemon extends Animal {
     }
 
     public void setAtk(Ataque atk) {
-        if (atk isnull) {
+        if (atk != null) {
             return;
         }
         this.atk = atk;
@@ -86,7 +86,7 @@ public class Pokemon extends Animal {
     public Pokemon(
         int idade, double peso, double tamanho, Sexo sexo,
         String nomeCientifico, int level, int levelProgress,
-        int hp, int atk, int def, int spd
+        int hp, Ataque atk, int def, int spd
     ) {
         super(idade, peso, tamanho, sexo, nomeCientifico);
         this.level = level;

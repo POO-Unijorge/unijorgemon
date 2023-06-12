@@ -3,7 +3,7 @@ package org.unijorge.core;
 public class Ataque {
     private int dano;
     private String nome;
-
+    
     //verificar interface
     private String tipo; 
     //tem que ve se vai ter isso mesmo

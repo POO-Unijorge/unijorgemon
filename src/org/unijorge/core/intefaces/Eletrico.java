@@ -1,3 +1,5 @@
-public Interface Eletrico{
+package org.unijorge.core.intefaces;
+
+interface Eletrico{
     
 }
