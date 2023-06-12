@@ -1,11 +1,11 @@
 <h2>Equipes</h2>
 <ul>
-    <li><a href="#eqp1">Equipe 1</a></li>
-    <li><a href="#eqp2">Equipe 2</a></li>
-    <li><a href="#eqp3">Equipe 3</a></li>
-    <li><a href="#eqp4">Equipe 4</a></li>
-    <li><a href="#eqp5">Equipe 5</a></li>
-    <li><a href="#eqp6">Equipe 6</a></li>
+    <li><a href="#equipe-1">Equipe 1</a></li>
+    <li><a href="#equipe-2">Equipe 2</a></li>
+    <li><a href="#equipe-3">Equipe 3</a></li>
+    <li><a href="#equipe-4">Equipe 4</a></li>
+    <li><a href="#equipe-5">Equipe 5</a></li>
+    <li><a href="#equipe-6">Equipe 6</a></li>
 </ul>
 
 <h2 id="#eqp1">EQUIPE 1</h2>
