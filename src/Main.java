@@ -1,5 +1,7 @@
+import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.Sexo;
+import org.unijorge.team3.Magikarp;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,5 +15,7 @@ public class Main {
         arena.resultado()
 
         System.out.println(eevee.toString());
+
+        Magikarp magikarp = new Magikarp(50, 1, 1, Sexo.F, "Magikarpa", 0, 0, 1, new Ataque(1, "Swift Swim", "Agua", 1), 0, 0); 
     }
 }

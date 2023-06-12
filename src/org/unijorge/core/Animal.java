@@ -9,7 +9,6 @@ public abstract class Animal {
     private String nomeCientifico;
     private String condicao;
 
-    //TODO: Fazer tratamento de dados em Getters e Setters
 
     public int getIdade() {
         return idade;
