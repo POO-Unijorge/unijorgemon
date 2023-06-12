@@ -11,8 +11,8 @@
 <h2>EQUIPE 2</h2>
 
 | NOME | USERNAME
-|:-------|:-------|
-| Nome | Username |
+|:-----|:------------|
+| Diego| DyanShythan |
 
 <h2>EQUIPE 3</h2>
 
