@@ -47,4 +47,6 @@
 
 | NOME | USERNAME
 |:-------|:-------|
-| Nome | Username |
+|Marlla Sousa| Mxrlla|
+|Jairo Luigi| |
+|Ricardo Henrique| |
