@@ -2,6 +2,7 @@ package org.unijorge.core;
 
 
 //import java.util.ArrayList;
+// OS TIPOS DOS ATAQUES SERÃO CORRESPONDENTES AOS TIPOS DOS POKEMON (Ex. Tipo ÁGUA == Ataque ÁGUA)
 
 public class Pokemon extends Animal {
     private int level;
