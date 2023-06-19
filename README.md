@@ -6,6 +6,7 @@
     <li><a href="#equipe-4">Equipe 4</a></li>
     <li><a href="#equipe-5">Equipe 5</a></li>
     <li><a href="#equipe-6">Equipe 6</a></li>
+    <li><a href="#equipe-7">Equipe 7</a></li>
 </ul>
 
 <h2 id="#eqp1">EQUIPE 1</h2>
@@ -38,7 +39,6 @@
 |:-------|:-------|
 | Gabriel Peixoto | gdspeixoto |
 | Lucca Rey | Luccamvmrey | 
-| Douglas Reis | DouglazReis |
 | Vinicius Rezende | viniciussrezende |
 | Emerson C | Hauntedghostjr |
 
@@ -50,3 +50,10 @@
 |Marlla Sousa| Mxrlla|
 |Jairo Luigi| |
 |Ricardo Henrique| |
+
+
+<h2 id="#eqp7">EQUIPE 7</h2>
+
+| NOME | USERNAME
+|:-------|:-------|
+| Douglas Reis | DouglazReis |
