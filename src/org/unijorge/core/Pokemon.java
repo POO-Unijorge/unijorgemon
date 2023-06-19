@@ -12,6 +12,7 @@ public class Pokemon extends Animal {
     private int def;
     private int spd;
     private int evasao;
+    private int acuracia;
     public static int MAX_ATK= 10;
     public static int MAX_HP= 10;
     public static int MAX_DEF= 10;
@@ -91,6 +92,10 @@ public class Pokemon extends Animal {
         int hp, Ataque atk, int def, int spd
     ) {
         super(idade, peso, tamanho, sexo, nomeCientifico);
+        //tirar isso daqui!!! depois...
+        this.acuracia = 100;
+        this.evasao = 100;
+        ///
         this.level = level;
         this.levelProgress = levelProgress;
         this.hp = hp;
