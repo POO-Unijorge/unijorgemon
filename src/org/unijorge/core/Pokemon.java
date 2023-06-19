@@ -13,6 +13,23 @@ public class Pokemon extends Animal {
     private int spd;
     private int evasao;
     private int acuracia;
+    
+    public int getEvasao() {
+        return evasao;
+    }
+
+    public void setEvasao(int evasao) {
+        this.evasao = evasao;
+    }
+
+    public int getAcuracia() {
+        return acuracia;
+    }
+
+    public void setAcuracia(int acuracia) {
+        this.acuracia = acuracia;
+    }
+
     public static int MAX_ATK= 10;
     public static int MAX_HP= 10;
     public static int MAX_DEF= 10;
