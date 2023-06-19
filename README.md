@@ -31,7 +31,10 @@
 
 | NOME | USERNAME
 |:-------|:-------|
-| Nome | Username |
+|Bruno Durão| Zeimi |
+|Gustavo Santos| |
+|Michel Gerônimo| |
+|Rodrigo Correia| |
 
 <h2 id="#eqp5">EQUIPE 5</h2>
 
