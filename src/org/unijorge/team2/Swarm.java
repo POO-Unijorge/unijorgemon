@@ -1,0 +1,3 @@
+public Swarm extends Ataque{
+
+}

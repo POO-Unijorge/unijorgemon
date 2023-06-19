@@ -11,6 +11,7 @@ public class Pokemon extends Animal {
     private Ataque atk;
     private int def;
     private int spd;
+    private int evasao;
     public static int MAX_ATK= 10;
     public static int MAX_HP= 10;
     public static int MAX_DEF= 10;
