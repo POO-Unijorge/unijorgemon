@@ -4,17 +4,24 @@ public class Ataque {
     private int dano;
     private String nome;
     
+    //  chance de acerto = pbatk x acuraatkante/evesoponente
+    //      0            =  1    x   100/100
+    //      0            =  1    x    1
+    //      1            =  1
+    //      -----------------
+    //   random falha critica 1 a 10 ou 20
+    //   1 já era, o maximo acerta.
     //verificar interface
     private String tipo; 
-    //tem que ve se vai ter isso mesmo
-    private double acerto;
+    
+    private double pBaseAtaque;
 
 
-    public Ataque(int dano, String nome, String tipo, double acerto){
+    public Ataque(int dano, String nome, String tipo, double pBaseAtaque){
         this.dano = dano;
         this.nome = nome;
         this.tipo = tipo;
-        this.acerto = acerto;
+        this.pBaseAtaque = pBaseAtaque;
     }
 
     public int getDano() {
@@ -35,10 +42,10 @@ public class Ataque {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-    public double getAcerto() {
-        return acerto;
+    public double getpBaseAtaque() {
+        return this.pBaseAtaque;
     }
-    public void setAcerto(double acerto) {
-        this.acerto = acerto;
+    public void setpBaseAtaque(double pBaseAtaque) {
+        this.pBaseAtaque = pBaseAtaque;
     }
 }
