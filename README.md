@@ -32,9 +32,9 @@
 | NOME | USERNAME
 |:-------|:-------|
 |Bruno Durão| Zeimi |
-|Gustavo Santos| |
-|Michel Gerônimo| |
-|Rodrigo Correia| |
+|Gustavo Santos| N11hl |
+|Michel Gerônimo| Meichl |
+|Rodrigo Correia| s2Alive |
 
 <h2 id="#eqp5">EQUIPE 5</h2>
 
