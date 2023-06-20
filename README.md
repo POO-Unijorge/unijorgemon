@@ -25,7 +25,8 @@
 
 | NOME | USERNAME
 |:-------|:-------|
-| Nome | Username |
+| Ronielly Santos | RoniSuper |
+| Gabriel Cerqueira |  |
 
 <h2 id="#eqp4">EQUIPE 4</h2>
 
