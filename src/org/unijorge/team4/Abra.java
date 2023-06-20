@@ -9,6 +9,7 @@ public class Abra extends Pokemon {
                 int hp, Ataque atk, int def, int spd) {
         super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd);
         //TODO Auto-generated constructor stub
+        //Modificar
 
     }
 
