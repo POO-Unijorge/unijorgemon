@@ -8,19 +8,19 @@
     <li><a href="#equipe-6">Equipe 6</a></li>
 </ul>
 
-<h2 id="#eqp1">EQUIPE 1</h2>
+<h2 id="#eqp1">EQUIPE 1 👨‍🏫</h2>
+
+| NOME | USERNAME
+|:-------|:-------|
+| Diego| DyanShythan |
+
+<h2 id="#eqp2">EQUIPE 2</h2>
 
 | NOME | USERNAME
 |:-------|:-------|
 | Vinicius Rezende | viniciussrezende |
 | Douglas Reis | DouglazReis |
 | Michel Carvalho | Meichl |
-
-<h2 id="#eqp2">EQUIPE 2</h2>
-
-| NOME | USERNAME
-|:-------|:-------|
-| Diego| DyanShythan |
 
 <h2 id="#eqp3">EQUIPE 3</h2>
 
