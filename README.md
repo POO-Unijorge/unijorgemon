@@ -59,3 +59,4 @@
 | NOME | USERNAME
 |:-------|:-------|
 | Douglas Reis | DouglazReis |
+| Michel Carvalho | Meichl |
