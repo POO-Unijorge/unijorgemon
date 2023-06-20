@@ -9,11 +9,11 @@
     <li><a href="#equipe-7">Equipe 7</a></li>
 </ul>
 
-<h2 id="#eqp1">EQUIPE 1</h2>
+<h2 id="#eqp1">EQUIPE ROCKET</h2>
 
 | NOME | USERNAME
 |:-------|:-------|
-| Nome | Username |
+| Vinicius Rezende | viniciussrezende |
 
 <h2 id="#eqp2">EQUIPE 2</h2>
 
@@ -33,7 +33,6 @@
 |:-------|:-------|
 |Bruno Durão| Zeimi |
 |Gustavo Santos| N11hl |
-|Michel Gerônimo| Meichl |
 |Rodrigo Correia| s2Alive |
 
 <h2 id="#eqp5">EQUIPE 5</h2>
@@ -42,7 +41,6 @@
 |:-------|:-------|
 | Gabriel Peixoto | gdspeixoto |
 | Lucca Rey | Luccamvmrey | 
-| Vinicius Rezende | viniciussrezende |
 | Emerson C | Hauntedghostjr |
 
 
