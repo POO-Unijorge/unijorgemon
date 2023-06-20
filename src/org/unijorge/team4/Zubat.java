@@ -3,7 +3,7 @@ import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.Sexo;
 
-public class Zubat extends Pokemon {
+public class Zubat extends Pokemon implements Venenoso{
 
     public Zubat(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level, int levelProgress,
                 int hp, Ataque atk, int def, int spd) {
