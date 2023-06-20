@@ -11,6 +11,7 @@ public class Pokemon extends Animal {
     private Ataque atk;
     private int def;
     private int spd;
+    //Colocar Evasao do Pokemon Mediante
     private int evasao;
     private int acuracia;
     public static int MAX_ATK= 10;
@@ -100,6 +101,12 @@ public class Pokemon extends Animal {
             return;
         }
         this.spd = spd;
+    }
+
+    //nao mudem a interface deste metodo
+    public int getIniciativa(){
+        //depois coloquem um random para variar
+        return this.getSpd();
     }
 
     public Pokemon(

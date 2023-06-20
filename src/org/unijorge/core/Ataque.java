@@ -4,7 +4,7 @@ public class Ataque {
     private int dano;
     private String nome;
     
-    //  chance de acerto = pbatk x acuraatkante/evesoponente
+    //  chance de acerto = pBaseAtaque x acuraciaAtacante/EvesaoOponente
     //      0            =  1    x   100/100
     //      0            =  1    x    1
     //      1            =  1
