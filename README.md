@@ -28,6 +28,7 @@
 |:-------|:-------|
 | Ronielly Santos | RoniSuper |
 | Gabriel Cerqueira |  |
+| Karina Mattos | kprotti |
 
 <h2 id="#eqp4">EQUIPE 4</h2>
 
