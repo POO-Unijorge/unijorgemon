@@ -1,8 +1,17 @@
 public class Scyther extends Animal implements Inseto{
 
-	public void setAcuracia(int acuracia){
 
-        super.setAcuracia(acuracia + 10)
+    public int setHp(int hp){
+        if(getHp()<50){
+            if(getSpd()+10<95){
+                setSpd(getSpd()+10);
+            }
+            if(getAtk()+10<95){
+                setAtk(getAtk()+10);
+            }
+            setHp(getHp()+4;)
+        }
     }
+
 
 }
