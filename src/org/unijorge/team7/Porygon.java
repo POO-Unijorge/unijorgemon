@@ -1,8 +1,8 @@
 package org.unijorge.team7;
-import org.unijorge.core.intefaces;
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
-import org.unijorge.core.Sexo;
+import org.unijorge.core.enums.Sexo;
+import org.unijorge.core.interfaces.Normal;
 
 public class Porygon extends Pokemon implements Normal{
 
