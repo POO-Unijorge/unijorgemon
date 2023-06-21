@@ -1,5 +1,5 @@
 package org.unijorge.core;
-
+import org.unijorge.core.enums.Sexo;
 
 //import java.util.ArrayList;
 // OS TIPOS DOS ATAQUES SERÃO CORRESPONDENTES AOS TIPOS DOS POKEMON (Ex. Tipo ÁGUA == Ataque ÁGUA)
