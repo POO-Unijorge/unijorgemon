@@ -1,5 +1,5 @@
 package org.unijorge.core.interfaces;
 
-interface Venenoso{
+public interface Venenoso{
     
 }
