@@ -2,6 +2,7 @@ package org.unijorge.team4;
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.enums.Sexo;
+import org.unijorge.core.interfaces.Venenoso;
 
 public class Zubat extends Pokemon implements Venenoso{
 
