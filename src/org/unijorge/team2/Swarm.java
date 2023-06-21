@@ -1,8 +1,11 @@
-public Swarm extends Ataque{
+package org.unijorge.team2;
+import org.unijorge.core.Ataque;
+
+public class Swarm extends Ataque{
 
     public Swarm(){
-        super();
-        super().setTipo("Grama");
+        
+        super(10,"atque inseto","inseto", 2.0);
     }
 
 }
