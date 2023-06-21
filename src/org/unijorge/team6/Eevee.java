@@ -1,7 +1,7 @@
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
-import org.unijorge.core.enum.Sexo;
-import org.unijorge.core.intefaces.Normal;
+import org.unijorge.core.enums.Sexo;
+import org.unijorge.core.interfaces.Normal;
 
 public class Eevee extends Pokemon implements Normal{
 
