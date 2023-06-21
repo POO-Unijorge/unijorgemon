@@ -1,3 +1,4 @@
+import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.enums.Sexo;
 
