@@ -1,5 +1,5 @@
-package org.unijorge.core.intefaces;
+package org.unijorge.core.interfaces;
 
-interface Normal {
+public interface Normal {
     
 }
