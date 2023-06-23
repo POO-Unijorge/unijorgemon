@@ -8,6 +8,19 @@ import org.unijorge.core.interfaces.Inseto;
 public class Scyter extends Pokemon implements  Inseto{
 
 
+    /**
+     * @param idade
+     * @param peso
+     * @param tamanho
+     * @param sexo
+     * @param nomeCientifico
+     * @param level
+     * @param levelProgress
+     * @param hp
+     * @param atk
+     * @param def
+     * @param spd
+     */
     public Scyter(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level,
             int levelProgress, int hp, Ataque atk, int def, int spd) {
         super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd);
@@ -25,6 +38,13 @@ public class Scyter extends Pokemon implements  Inseto{
             setHp(getHp()+4);
         }
     }
+
+    public String desenhoPokemon(){
+        return "(*)_(*)";
+
+    } 
+
+       
 
 
 }

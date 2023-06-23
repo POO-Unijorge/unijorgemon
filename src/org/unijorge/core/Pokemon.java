@@ -7,7 +7,7 @@ import org.unijorge.utils.Utils;
 //import java.util.ArrayList;
 // OS TIPOS DOS ATAQUES SERÃO CORRESPONDENTES AOS TIPOS DOS POKEMON (Ex. Tipo ÁGUA == Ataque ÁGUA)
 
-public class Pokemon extends Animal {
+public abstract class Pokemon extends Animal {
     private int level;
     private int levelProgress;
     private int hp;
@@ -161,5 +161,7 @@ public class Pokemon extends Animal {
     public String retornaTipoDoPokemonStr(){
         return Utils.removerUltimaPalavraAposUltimoPonto(Utils.RetornaInterfaces.getImplementedInterfaces(getClass()).toString());
     }
+
+    public abstract String desenhoPokemon();
 
 }

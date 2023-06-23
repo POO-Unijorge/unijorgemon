@@ -7,21 +7,17 @@ import org.unijorge.utils.Utils;
 public class Ataque {
     private int dano;
     private String nome;
-    
-    //  chance de acerto = pBaseAtaque x acuraciaAtacante/EvesaoOponente
-    //      0            =  1    x   100/100
-    //      0            =  1    x    1
-    //      1            =  1
-    //      -----------------
-    //   random falha critica 1 a 10 ou 20
-    //   1 já era, o maximo acerta.
-    //verificar interface
-    private String tipo; 
-    
+    private String tipo;    
     private double pBaseAtaque;
 
     //não precisa por o nome do tipo mais é feito automaticamente
-    @Deprecate
+    /**
+     * @deprecated
+     * @param dano
+     * @param nome
+     * @param tipo
+     * @param pBaseAtaque
+     */
     public Ataque(int dano, String nome, String tipo, double pBaseAtaque){
         this.dano = dano;
         this.nome = nome;
@@ -29,47 +25,95 @@ public class Ataque {
         this.pBaseAtaque = pBaseAtaque;
     }
 
+    /**
+     * 
+     * @param dano
+     * @param nome
+     * @param pBaseAtaque
+     */
     public Ataque(int dano, String nome, double pBaseAtaque){
         this.dano = dano;
         this.nome = nome;
         this.pBaseAtaque = pBaseAtaque;
     }
 
-
+    /**
+     * Retorna o dano
+     * @return int
+     */
     public int getDano() {
         return dano;
     }
+
+    /**
+     * Retorna o dano
+     * @param dano
+     */
     public void setDano(int dano) {
         this.dano = dano;
     }
+
+    /**
+     * Retorna nome do ataque
+     * @return
+     */
     public String getNome() {
         return nome;
     }
+
+    /**
+     * Ajusta o nome do ataque
+     * @param nome
+     */
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    /**
+     * Retorna o tipo do ataque
+     * @return
+     */
     public String getTipo() {
         return tipo;
     }
 
-    //Com a reflexao não se torna mais necessario setar o tipo se pega por interfaces
-    @Deprecate
+    /**
+     * Já temos reflexao
+     * @deprecated
+     * @param tipo
+     */
     public void setTipo(String tipo) {
         this.tipo = retornaTipoDoAtaque().get(0).toString();
     }
+
+    /**
+     * Retorna o ponto base do ataque
+     * @return
+     */
     public double getpBaseAtaque() {
         return this.pBaseAtaque;
     }
+
+    /**
+     * ajusta o pbase ataque
+     * @param pBaseAtaque
+     */
     public void setpBaseAtaque(double pBaseAtaque) {
         this.pBaseAtaque = pBaseAtaque;
     }
 
-    //as classes filhas vao poder acessar este método publico
+    /**
+     * retorna o tipo do ataque por arraylist, todos os tipos
+     * @return
+     */
     public ArrayList<Class<?>> retornaTipoDoAtaque(){
         return Utils.RetornaInterfaces.getImplementedInterfaces(getClass());
     }
 
-    //as classes filhas vao poder acessar este método publico
+    /**
+     * retorna todos o primeiro tipo de ataque pela interface
+     * @return
+     */
     public String retornaTipoDoAtaqueStr(){
         return Utils.removerUltimaPalavraAposUltimoPonto(Utils.RetornaInterfaces.getImplementedInterfaces(getClass()).toString());
     }
