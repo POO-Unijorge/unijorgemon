@@ -44,11 +44,13 @@ public class Arena {
         return (int) arPokemon.get(0).getAtk().getpBaseAtaque() * (arPokemon.get(0).getAcuracia()/arPokemon.get(1).getEvasao());
     }
 
+    //como vai ser o dano?
     private int calculaDano(){
         int acerto = calcularAcerto();
         if(acerto > 50){
-            int dano = 
+            //int dano = 
         }
+        return 0;
     }
 
     private void start(){
