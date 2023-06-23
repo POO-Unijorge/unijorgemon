@@ -11,9 +11,8 @@ public class Eevee extends Pokemon implements Normal{
         //TODO Auto-generated constructor stub
 
     }
-    /*
-     * public static void main(String[] args){
-     *  Eevee eevee = new Eevee(10,10,10,Sexo.F,"blablabla", 1, 0, 35, new Ataque(80, "Tackle", 100));
-     * }
-     */
+        public String desenhoPokemon(){
+        return "(*)_(*)";
+
+    } 
 }

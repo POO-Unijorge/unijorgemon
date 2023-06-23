@@ -13,5 +13,9 @@ public class Zubat extends Pokemon implements Venenoso{
         //Modificar
 
     }
+        public String desenhoPokemon(){
+        return "(*)_(*)";
+
+    } 
 
 }

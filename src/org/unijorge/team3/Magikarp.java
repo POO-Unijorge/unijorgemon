@@ -10,6 +10,10 @@ public class Magikarp extends Pokemon{
 		super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd);
 	}
     
+	    public String desenhoPokemon(){
+        return "(*)_(*)";
+
+    } 
         
 
 }
