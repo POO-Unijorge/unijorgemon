@@ -158,4 +158,8 @@ public class Pokemon extends Animal {
         return Utils.RetornaInterfaces.getImplementedInterfaces(getClass());
     } 
     
+    public String retornaTipoDoPokemonStr(){
+        return Utils.removerUltimaPalavraAposUltimoPonto(Utils.RetornaInterfaces.getImplementedInterfaces(getClass()).toString());
+    }
+
 }

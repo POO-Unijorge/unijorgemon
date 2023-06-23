@@ -68,4 +68,10 @@ public class Ataque {
     public ArrayList<Class<?>> retornaTipoDoAtaque(){
         return Utils.RetornaInterfaces.getImplementedInterfaces(getClass());
     }
+
+    //as classes filhas vao poder acessar este método publico
+    public String retornaTipoDoAtaqueStr(){
+        return Utils.removerUltimaPalavraAposUltimoPonto(Utils.RetornaInterfaces.getImplementedInterfaces(getClass()).toString());
+    }
+    
 }
