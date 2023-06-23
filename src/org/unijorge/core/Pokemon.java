@@ -2,6 +2,7 @@ package org.unijorge.core;
 import java.util.ArrayList;
 
 import org.unijorge.core.enums.Sexo;
+import org.unijorge.utils.Utils;
 
 //import java.util.ArrayList;
 // OS TIPOS DOS ATAQUES SERÃO CORRESPONDENTES AOS TIPOS DOS POKEMON (Ex. Tipo ÁGUA == Ataque ÁGUA)
@@ -134,7 +135,9 @@ public class Pokemon extends Animal {
                 + def + ", spd=" + spd + "]";
     }
 
-    //retorna as interfaces da classe... provado de pokemon
+    //retorna as interfaces da classe... provado de pokemon usar da classe utils
+    //a classe ataque tambem vai precisar, entao cria uma classe
+    @Deprecate 
     private ArrayList<Class<?>> getImplementedInterfaces(Class<?> clazz){
 
         ArrayList<Class<?>> interfaces = new ArrayList<>();
@@ -152,7 +155,7 @@ public class Pokemon extends Animal {
 
     //as classes filhas vao poder acessar este método publico
     public ArrayList<Class<?>> retornaTipoDoPokemon(){
-        return getImplementedInterfaces(getClass());
+        return Utils.RetornaTipoPokemon.getImplementedInterfaces(getClass());
     } 
     
 }
