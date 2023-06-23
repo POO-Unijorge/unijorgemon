@@ -8,6 +8,6 @@ public class Main {
         System.out.println("ola");
         Scyter p1 = new Scyter(10, 30, 40, null, null, 1, 0, 30, new Ataque(20, null, "inseto", 10), 40, 60);
         Scyter p2 = new Scyter(10, 30, 40, null, null, 1, 0, 30, new Ataque(20, null, "inseto", 10), 40, 60);
-        System.out.println(p1.toString());
+        System.out.println(p1.retornaTipoDoPokemon().get(0).toString());
     }
 }
