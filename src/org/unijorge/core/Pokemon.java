@@ -21,7 +21,6 @@ public class Pokemon extends Animal {
     public static int MAX_DEF= 10;
     public static int MAX_SPD= 10;
     public static int MAX_LEVEL= 10;
-    //public ArrayList<String> 
 
     public int getEvasao() {
         return evasao;
