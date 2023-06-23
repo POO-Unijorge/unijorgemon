@@ -135,9 +135,11 @@ public abstract class Pokemon extends Animal {
                 + def + ", spd=" + spd + "]";
     }
 
-    //retorna as interfaces da classe... provado de pokemon usar da classe utils
-    //a classe ataque tambem vai precisar, entao cria uma classe
-    @Deprecate 
+    /**
+     * 
+     * @param clazz
+     * @return
+     */ 
     private ArrayList<Class<?>> getImplementedInterfaces(Class<?> clazz){
 
         ArrayList<Class<?>> interfaces = new ArrayList<>();
