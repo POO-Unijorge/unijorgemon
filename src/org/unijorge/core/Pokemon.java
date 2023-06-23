@@ -1,4 +1,6 @@
 package org.unijorge.core;
+import java.util.ArrayList;
+
 import org.unijorge.core.enums.Sexo;
 
 //import java.util.ArrayList;
@@ -132,5 +134,26 @@ public class Pokemon extends Animal {
         return "Pokemon [level=" + level + ", levelProgress=" + levelProgress + ", hp=" + hp + ", atk=" + atk + ", def="
                 + def + ", spd=" + spd + "]";
     }
+
+    //retorna as interfaces da classe... provado de pokemon
+    private ArrayList<Class<?>> getImplementedInterfaces(Class<?> clazz){
+
+        ArrayList<Class<?>> interfaces = new ArrayList<>();
+
+        while (clazz != null) {
+            Class<?>[] implementedInterfaces = clazz.getInterfaces();
+            for (Class<?> iface : implementedInterfaces) {
+                interfaces.add(iface);
+            }
+            clazz = clazz.getSuperclass();
+        }
+
+        return interfaces;
+    }
+
+    //as classes filhas vao poder acessar este método publico
+    public ArrayList<Class<?>> retornaTipoDoPokemon(){
+        return getImplementedInterfaces(getClass());
+    } 
     
 }
