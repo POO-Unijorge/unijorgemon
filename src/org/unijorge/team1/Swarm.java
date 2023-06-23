@@ -1,11 +1,14 @@
-package org.unijorge.team2;
+package org.unijorge.team1;
 import org.unijorge.core.Ataque;
+import org.unijorge.core.interfaces.Inseto;
 
-public class Swarm extends Ataque{
+public class Swarm extends Ataque implements Inseto{
 
-    public Swarm(){
-        
-        super(10,"atque inseto","inseto", 2.0);
+    public Swarm(int dano, String nome, String tipo, double pBaseAtaque) {
+        super(dano, nome, tipo, pBaseAtaque);
+        //TODO Auto-generated constructor stub
     }
+
+
 
 }

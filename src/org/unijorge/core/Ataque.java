@@ -1,5 +1,9 @@
 package org.unijorge.core;
 
+import java.util.ArrayList;
+
+import org.unijorge.utils.Utils;
+
 public class Ataque {
     private int dano;
     private String nome;
@@ -16,13 +20,21 @@ public class Ataque {
     
     private double pBaseAtaque;
 
-
+    //não precisa por o nome do tipo mais é feito automaticamente
+    @Deprecate
     public Ataque(int dano, String nome, String tipo, double pBaseAtaque){
         this.dano = dano;
         this.nome = nome;
-        this.tipo = tipo;
+        this.tipo = retornaTipoDoAtaque().get(0).toString();
         this.pBaseAtaque = pBaseAtaque;
     }
+
+    public Ataque(int dano, String nome, double pBaseAtaque){
+        this.dano = dano;
+        this.nome = nome;
+        this.pBaseAtaque = pBaseAtaque;
+    }
+
 
     public int getDano() {
         return dano;
@@ -39,13 +51,21 @@ public class Ataque {
     public String getTipo() {
         return tipo;
     }
+
+    //Com a reflexao não se torna mais necessario setar o tipo se pega por interfaces
+    @Deprecate
     public void setTipo(String tipo) {
-        this.tipo = tipo;
+        this.tipo = retornaTipoDoAtaque().get(0).toString();
     }
     public double getpBaseAtaque() {
         return this.pBaseAtaque;
     }
     public void setpBaseAtaque(double pBaseAtaque) {
         this.pBaseAtaque = pBaseAtaque;
+    }
+
+    //as classes filhas vao poder acessar este método publico
+    public ArrayList<Class<?>> retornaTipoDoAtaque(){
+        return Utils.RetornaInterfaces.getImplementedInterfaces(getClass());
     }
 }

@@ -1,4 +1,4 @@
-package org.unijorge.team2;
+package org.unijorge.team1;
 
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;

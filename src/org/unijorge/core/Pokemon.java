@@ -155,7 +155,7 @@ public class Pokemon extends Animal {
 
     //as classes filhas vao poder acessar este método publico
     public ArrayList<Class<?>> retornaTipoDoPokemon(){
-        return Utils.RetornaTipoPokemon.getImplementedInterfaces(getClass());
+        return Utils.RetornaInterfaces.getImplementedInterfaces(getClass());
     } 
     
 }

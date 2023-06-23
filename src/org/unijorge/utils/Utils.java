@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Utils {
 
 
-    public static class RetornaTipoPokemon{
+    public static class RetornaInterfaces{
 
         public static ArrayList<Class<?>> getImplementedInterfaces(Class<?> clazz){
 
