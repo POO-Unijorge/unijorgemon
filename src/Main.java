@@ -19,6 +19,6 @@ public class Main {
         System.out.println(p1.getAcuracia());
         
         
-        Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10);
+        Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10, 20);
     }
 }
