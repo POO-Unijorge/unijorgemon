@@ -114,12 +114,12 @@ public abstract class Pokemon extends Animal {
     public Pokemon(
         int idade, double peso, double tamanho, Sexo sexo,
         String nomeCientifico, int level, int levelProgress,
-        int hp, Ataque atk, int def, int spd
+        int hp, Ataque atk, int def, int spd, int acuracia
     ) {
         super(idade, peso, tamanho, sexo, nomeCientifico);
         //tirar isso daqui!!! depois...
-        this.acuracia = 100;
-        this.evasao = 100;
+        this.acuracia = acuracia;
+        this.evasao = 1;
         ///
         this.level = level;
         this.levelProgress = levelProgress;
