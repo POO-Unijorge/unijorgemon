@@ -1,4 +1,5 @@
 package org.unijorge.core;
+import org.unijorge.core.enums.Sexo;
 
 
 public abstract class Animal {

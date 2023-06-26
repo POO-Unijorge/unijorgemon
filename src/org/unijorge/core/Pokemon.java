@@ -1,16 +1,20 @@
 package org.unijorge.core;
+import java.util.ArrayList;
 
+import org.unijorge.core.enums.Sexo;
+import org.unijorge.utils.Utils;
 
 //import java.util.ArrayList;
 // OS TIPOS DOS ATAQUES SERÃO CORRESPONDENTES AOS TIPOS DOS POKEMON (Ex. Tipo ÁGUA == Ataque ÁGUA)
 
-public class Pokemon extends Animal {
+public abstract class Pokemon extends Animal {
     private int level;
     private int levelProgress;
     private int hp;
     private Ataque atk;
     private int def;
     private int spd;
+    //Colocar Evasao do Pokemon Mediante
     private int evasao;
     private int acuracia;
     public static int MAX_ATK= 10;
@@ -18,7 +22,6 @@ public class Pokemon extends Animal {
     public static int MAX_DEF= 10;
     public static int MAX_SPD= 10;
     public static int MAX_LEVEL= 10;
-    //public ArrayList<String> 
 
     public int getEvasao() {
         return evasao;
@@ -102,6 +105,12 @@ public class Pokemon extends Animal {
         this.spd = spd;
     }
 
+    //nao mudem a interface deste metodo
+    public int getIniciativa(){
+        //depois coloquem um random para variar
+        return this.getSpd();
+    }
+
     public Pokemon(
         int idade, double peso, double tamanho, Sexo sexo,
         String nomeCientifico, int level, int levelProgress,
@@ -125,5 +134,36 @@ public class Pokemon extends Animal {
         return "Pokemon [level=" + level + ", levelProgress=" + levelProgress + ", hp=" + hp + ", atk=" + atk + ", def="
                 + def + ", spd=" + spd + "]";
     }
+
+    /**
+     * 
+     * @param clazz
+     * @return
+     */ 
+    private ArrayList<Class<?>> getImplementedInterfaces(Class<?> clazz){
+
+        ArrayList<Class<?>> interfaces = new ArrayList<>();
+
+        while (clazz != null) {
+            Class<?>[] implementedInterfaces = clazz.getInterfaces();
+            for (Class<?> iface : implementedInterfaces) {
+                interfaces.add(iface);
+            }
+            clazz = clazz.getSuperclass();
+        }
+
+        return interfaces;
+    }
+
+    //as classes filhas vao poder acessar este método publico
+    public ArrayList<Class<?>> retornaTipoDoPokemon(){
+        return Utils.RetornaInterfaces.getImplementedInterfaces(getClass());
+    } 
     
+    public String retornaTipoDoPokemonStr(){
+        return Utils.removerUltimaPalavraAposUltimoPonto(Utils.RetornaInterfaces.getImplementedInterfaces(getClass()).toString());
+    }
+
+    public abstract String desenhoPokemon();
+
 }

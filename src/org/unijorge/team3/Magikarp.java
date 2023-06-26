@@ -1,7 +1,7 @@
 package org.unijorge.team3;
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
-import org.unijorge.core.Sexo;
+import org.unijorge.core.enums.Sexo;
 
 public class Magikarp extends Pokemon{
 
@@ -10,6 +10,10 @@ public class Magikarp extends Pokemon{
 		super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd);
 	}
     
+	    public String desenhoPokemon(){
+        return "(*)_(*)";
+
+    } 
         
 
 }
