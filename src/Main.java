@@ -12,6 +12,7 @@ public class Main {
         
         Swarm atkS = new Swarm(20, "ola", "inseto", 10);
         Tackle tackle = new Tackle(60, "Tackle", 50);
+        Bubbles bubbles = new Bubbles(20,"bubbles","Agua",50);
 
         Scyter p1 = new Scyter(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10, 0);
         
@@ -34,5 +35,6 @@ public class Main {
         System.out.println(eevee.getAcuracia());
         
         Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10, 20);
+        
     }
 }
