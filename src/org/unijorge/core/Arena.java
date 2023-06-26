@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Arena {
     private Pokemon p1;
     private Pokemon p2;
-    private ArrayList<Pokemon> arPokemon = new ArrayList<Pokemon>(null);
+    private ArrayList<Pokemon> arPokemon = new ArrayList<Pokemon>();
 
     public Arena (Pokemon p1,  Pokemon p2){
         this.p1 = p1;
@@ -27,10 +27,28 @@ public class Arena {
          }
     }
 
+    public void iniciativa(Pokemon p1, Pokemon p2){
+        if (p1.getSpd() > p2.getSpd()){
+            System.out.println("Pokemon 1 inicia primeiro");
+        }else if(p1.getSpd() == p2.getSpd()){
+            System.out.println("Empate");
+        }else{
+            System.out.println("Pokemon 2 inicia primeiro");
+        }
+    }
+    public void iniciativa(){
+        if (p1.getSpd() > p2.getSpd()){
+            System.out.println("Pokemon 1 inicia primeiro");
+        }else if(p1.getSpd() == p2.getSpd()){
+            System.out.println("Empate");
+        }else{
+            System.out.println("Pokemon 2 inicia primeiro");
+        }
+    }
+
     //determina o atacante e oponente, se forem mexer no calculo mexam 
     //na iniciativa mas nao mudem o nome do metodo
     private Pokemon determinaAtacanteOponente(){
-
         if (p1.getIniciativa() > p2.getIniciativa()){
             return p1;
         }else{
@@ -53,10 +71,12 @@ public class Arena {
         return 0;
     }
 
-    private void start(){
-        
+
+    public void start(){
+        iniciativa();
 
     }
+
 
 
 }
