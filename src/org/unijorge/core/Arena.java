@@ -48,7 +48,7 @@ public class Arena {
     private int calculaDano(){
         int acerto = calcularAcerto();
         if(acerto > 50){
-            //int dano = 
+            //int dano = [( ( (2*level)/5 + 2) * pBaseAtaque * (atqAtacante/defDefensor) ) / 50) + 2] * Critico * Numero Aleatorio de talvez 85% a 100%
         }
         return 0;
     }
