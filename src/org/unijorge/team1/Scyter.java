@@ -5,7 +5,7 @@ import org.unijorge.core.Pokemon;
 import org.unijorge.core.enums.Sexo;
 import org.unijorge.core.interfaces.Inseto;
 
-public class Scyter extends Pokemon implements  Inseto{
+public class Scyter extends Pokemon implements Inseto{
 
 
     /**
