@@ -4,7 +4,7 @@ import org.unijorge.core.Pokemon;
 import org.unijorge.core.enums.Sexo;
 import org.unijorge.core.interfaces.Agua;
 
-public class Bubbles extends Pokemon implements Agua {
+public class Bubbles extends Ataque implements Agua {
 
 
     public Bubbles(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level,

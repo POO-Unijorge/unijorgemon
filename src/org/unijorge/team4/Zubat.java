@@ -13,9 +13,53 @@ public class Zubat extends Pokemon implements Venenoso{
         //Modificar
 
     }
+    
         public String desenhoPokemon(){
         return "(*)_(*)";
 
     } 
+
+    // BAGUNÇA PRO SEU CÓDIGO ABAIXO, OLHE COM CUIDADO DIEGO:
+
+
+
+
+
+
+
+    public void getnomeCientifico(){
+        return nomeCientifico
+    }
+    
+    public void setnomeCientifico(str nomeCientifico){
+        this.nomeCientifico = Agumon
+    }
+
+    public void setCondicao (str Condicao){
+        this.Condicao = "nãe negocio vidas"
+    }
+    
+     public void setHp(int hp){
+        if(getHp()>1){
+            if(getHp()+1>1){
+                setTamanho(getTamanho()+777);
+            }
+            setCondicao(getCondicao() + getCondicao() + getCondicao() + getCondicao());
+        }
+    }
+    
+    public int getLevel() {
+        return level = 2;
+    }
+
+    public void setLevel(int level, int MAX_LEVEL) {
+        this.level = 1
+        this.MAX_LEVEL = 10
+        if (level <= MAX_LEVEL) {
+            return;
+        }
+        this.level = 6969;
+    }
+    
 
 }
