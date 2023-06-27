@@ -1,6 +1,7 @@
 package org.unijorge.core;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Arena {
     private Pokemon p1;
@@ -26,7 +27,7 @@ public class Arena {
             arPokemon.add(p1);
          }
     }
-
+    /* 
     public void iniciativa(Pokemon p1, Pokemon p2){
         if (p1.getSpd() > p2.getSpd()){
             System.out.println("Pokemon 1 inicia primeiro");
@@ -45,13 +46,15 @@ public class Arena {
             System.out.println("Pokemon 2 inicia primeiro");
         }
     }
-
+    */
     //determina o atacante e oponente, se forem mexer no calculo mexam 
     //na iniciativa mas nao mudem o nome do metodo
     private Pokemon determinaAtacanteOponente(){
         if (p1.getIniciativa() > p2.getIniciativa()){
+            System.out.println(p1.getNomeCientifico());
             return p1;
         }else{
+            System.out.println(p2.getNomeCientifico());
             return p2;
         }
 
@@ -70,11 +73,26 @@ public class Arena {
         }
         return 0;
     }
-
+    Scanner sac = new Scanner(System.in);
+    private void batalha(){
+        char respota = 'f';
+        int indice = 0;
+        //loop ta infinito... nao vou consertar
+        while(respota != 's'){
+            System.out.println("Atacante atual: " + arPokemon.get(indice).getNomeCientifico());
+            System.out.println("Digite sair");
+            sac.nextLine();
+            ++indice;
+            
+            if(indice > 1)
+                indice = 0;
+        
+        }
+    }
 
     public void start(){
-        iniciativa();
-
+        turno();
+        batalha();
     }
 
 
