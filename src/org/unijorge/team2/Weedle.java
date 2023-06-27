@@ -5,10 +5,11 @@ import org.unijorge.core.interfaces.Inseto;
 
 public class Weedle extends Pokemon implements Inseto{
 
-    public Weedle(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level,
-            int levelProgress, int hp, Ataque atk, int def, int spd, int acuracia, int evasao) {
-        super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd, acuracia, evasao);
-        //TODO Auto-generated constructor stub
+    public Weedle(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico,
+                  int level, int levelProgress, int hp, Ataque atk, int def, int spd,
+                  int acuracia, int evasao) {
+        super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd,
+              acuracia, evasao);
     }
 
     public String desenhoPokemon(){
