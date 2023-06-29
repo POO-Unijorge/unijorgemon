@@ -13,6 +13,5 @@ public class Lopunny extends Pokemon implements Normal{
     }
         public String desenhoPokemon(){
         return "(*)_(*)";
-
     } 
 }
