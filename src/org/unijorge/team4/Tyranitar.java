@@ -13,3 +13,7 @@ public class Tyranitar extends Pokemon implements Pedra{
         //Modificar
 
     }
+        public String desenhoPokemon(){
+        return "(*)_(*)";
+
+    } 
