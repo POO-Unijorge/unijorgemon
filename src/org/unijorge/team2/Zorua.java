@@ -40,5 +40,6 @@ public class Zorua extends Pokemon implements Noturno{
 ⠀⠀⠀⠀⠀⠈⠃⢀⠃⠀⠀⠐⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⣈⣻⣡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡙⠻⢿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"";
     }
 
+    System.out.println(Zorua.toString);
 
 }
