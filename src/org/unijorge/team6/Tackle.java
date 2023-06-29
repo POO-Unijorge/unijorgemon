@@ -8,6 +8,14 @@ public class Tackle extends Ataque implements Normal{
     public Tackle(int dano, String nome, double pBaseAtaque) {
         super(dano, nome, pBaseAtaque);
         //TODO Auto-generated constructor stub
+
+       public int getLevelProgress(){
+                return levelProgress;
+            }
+
+            public void setLevelProgress(int levelProgress){
+                this.levelProgress = levelProgress; 
+            }
     }
     
 }
