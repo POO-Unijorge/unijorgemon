@@ -19,19 +19,9 @@ public class Vaporeon extends Pokemon implements Agua{
         return " 👌🐟 ";
 
     } 
-    public void setHp(int hp){
-        if(getHp()<50){
-            if(getSpd()+10<95){
-                setSpd(getSpd()+10);
-            }
-            if((getAtk().getDano()+10)<95){
-                getAtk().setDano(getAtk().getDano()+10);
-            }
-            setHp(getHp()+4);
-        }
-    }
 
     // GETS && SETS
+    
     public int getEvasao() {
         return evasao;
     }
