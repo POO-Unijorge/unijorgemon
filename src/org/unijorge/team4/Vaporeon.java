@@ -16,7 +16,7 @@ public class Vaporeon extends Pokemon implements Venenoso{
     }
     
         public String desenhoPokemon(){
-        return "(*)_(*)";
+        return " 👌🐟 ";
 
     } 
 }
