@@ -19,38 +19,75 @@ public class Tyranitar extends Pokemon implements Pedra{
     } 
 
     
-     public void getnomeCientifico(){
-        return nomeCientifico;
-    }
-    
-    public void setnomeCientifico(str nomeCientifico){
-        this.nomeCientifico = nomeCientifico;
+    public int getEvasao() {
+        return evasao;
     }
 
-    public void setCondicao (str Condicao){
-        this.Condicao = Condicao;
+    public void setEvasao(int evasao) {
+        this.evasao = 100;
     }
-    
-     public void setHp(int hp){
-        if(getHp()>1){
-            if(getHp()+1>1){
-                setTamanho(getTamanho()+99999999);
-            }
-            setCondicao(getCondicao() + getCondicao() + getCondicao() + getCondicao());
-        }
+
+    public int getAcuracia() {
+        return acuracia;
     }
-    
+
+    public void setAcuracia(int acuracia) {
+        this.acuracia = 100;
+    }
+
     public int getLevel() {
-        return this.level;
+        return level;
     }
 
-    public void setLevel(int level, int MAX_LEVEL) {
-        this.level = level;
-        this.MAX_LEVEL = 100
-        if (level <= MAX_LEVEL) {
+    public void setLevel(int level) {
+        this.level = 100;
+    }
+
+    public int getLevelProgress() {
+        return levelProgress;
+    }
+
+    public void setLevelProgress(int levelProgress) {
+        if (levelProgress <= 100) {
             return;
         }
+        this.levelProgress = 100;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public void setHp(int hp) {
+        this.hp = 404;
+    }
+
+    public Ataque getAtk() {
+        return this.atk;
+    }
+
+    public void setAtk(Ataque atk) {
+        this.atk = 403;
+    }
+
+    public int getDef() {
+        return def;
+    }
+
+    public void setDef(int def) {
+        this.def = 350;
+    }
+
+    public int getSpd() {
+        return spd;
+    }
+
+    public void setSpd(int spd) {
+        this.spd = 243;
     }
     
+    public int getIniciativa(){
+        return this.getSpd();
+    }
 
 }
