@@ -27,7 +27,7 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setEvasao(int evasao) {
-        this.evasao = 100;
+        this.evasao = 134;
     }
 
     public int getAcuracia() {
@@ -35,7 +35,7 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setAcuracia(int acuracia) {
-        this.acuracia = 100;
+        this.acuracia = 134;
     }
 
     public int getLevel() {
@@ -43,7 +43,7 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setLevel(int level) {
-        this.level = 10;
+        this.level = 34;
     }
 
     public int getLevelProgress() {
@@ -51,10 +51,10 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setLevelProgress(int levelProgress) {
-        if (levelProgress <= 0) {
+        if (levelProgress <= 34) {
             return;
         }
-        this.levelProgress = levelProgress;
+        this.levelProgress = 34;
     }
 
     public int getHp() {
@@ -62,7 +62,7 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setHp(int hp) {
-        this.hp = 300;
+        this.hp = 340;
     }
 
     public Ataque getAtk() {
@@ -70,7 +70,7 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setAtk(Ataque atk) {
-        this.atk = 600;
+        this.atk = 634;
     }
 
     public int getDef() {
@@ -78,7 +78,7 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setDef(int def) {
-        this.def = 500;
+        this.def = 534;
     }
 
     public int getSpd() {
@@ -86,7 +86,7 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setSpd(int spd) {
-        this.spd = 150;
+        this.spd = 134;
     }
     
     public int getIniciativa(){
