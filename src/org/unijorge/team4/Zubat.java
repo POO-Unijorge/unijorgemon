@@ -19,6 +19,12 @@ public class Zubat extends Pokemon implements Venenoso{
 
     } 
 
+
+
+
+
+
+    
     // BAGUNÇA PRO SEU CÓDIGO ABAIXO, OLHE COM CUIDADO DIEGO:
 
 
