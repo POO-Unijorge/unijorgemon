@@ -4,7 +4,7 @@ import org.unijorge.core.interfaces.Agua;
 
 public class HydroPump extends Ataque implements Agua{
 
-    public PoisonFang(int dano, String nome, String tipo, double pBaseAtaque) {
+    public HydroPump(int dano, String nome, String tipo, double pBaseAtaque) {
         super(dano, nome, tipo, pBaseAtaque);
         //TODO Auto-generated constructor stub
     }
