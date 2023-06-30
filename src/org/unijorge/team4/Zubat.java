@@ -28,15 +28,15 @@ public class Zubat extends Pokemon implements Venenoso{
 
 
     public void getnomeCientifico(){
-        return nomeCientifico
+        return nomeCientifico;
     }
     
     public void setnomeCientifico(str nomeCientifico){
-        this.nomeCientifico = Agumon
+        this.nomeCientifico = Agumon;
     }
 
     public void setCondicao (str Condicao){
-        this.Condicao = "nãe negocio vidas"
+        this.Condicao = "nãe negocio vidas";
     }
     
      public void setHp(int hp){
