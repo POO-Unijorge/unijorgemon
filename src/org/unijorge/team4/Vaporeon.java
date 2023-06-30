@@ -43,9 +43,6 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setLevel(int level) {
-        if (level <= MAX_LEVEL) {
-            return;
-        }
         this.level = 10;
     }
 
@@ -65,9 +62,6 @@ public class Vaporeon extends Pokemon implements Agua{
     }
 
     public void setHp(int hp) {
-        if (hp <= MAX_HP) {
-            return;
-        }
         this.hp = 300;
     }
 
