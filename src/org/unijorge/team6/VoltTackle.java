@@ -10,19 +10,18 @@ public class VoltTackle extends Ataque implements Eletrico{
             public void set Hp(int hp){
                 if (getHp < 15){
                     this.setHP(getHP()+1);
-                    // Verificando se a vida da coelhinha da menor que 50, estando vai acresentar 1 ajudinha.
                 } else {
                     this.setHp(this.getHp()-hp); // Colocando o dano
                 }
                 if (getHp() <= 0){}
                 else if (getHp() > 50){
-                    Pikachu Pikachu = new Pikachu();
-                    // Batalhar com o personagem em espefico ela vai virar supe lopunny
+                    Pikachu Pikachu = new Raichu();
+                    // Batalhar com o personagem em espefico ele virar o Raichu
                     // colocar o super atk
-                    superLopunny.setHp(getHp());
-                    superLopunny.setAtk(getAtk());
-                    superLopunny.setAtkName("Super Volttackle");
-                    // get do super
+                    Raichu.setHp(getHp());
+                    Raichu.setAtk(getAtk());
+                    Raichu.setAtkName("Super Volttackle");
+                    // get do pokemon
                     this.hp = superLopunny.getHp();
                     this.atk = superLopunny.getAtk();
                 }
