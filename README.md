@@ -52,5 +52,5 @@
 | NOME | USERNAME
 |:-------|:-------|
 |Marlla Sousa| Mxrlla|
-|Jairo Luigi| |
-|Ricardo Henrique| |
+|Jairo Luigi|Jairolu565 |
+|Ricardo Henrique|Carto100 |
