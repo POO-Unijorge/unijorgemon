@@ -4,8 +4,7 @@ import org.unijorge.core.Pokemon;
 import org.unijorge.team1.Scyter;
 import org.unijorge.team1.Swarm;
 import org.unijorge.team5.Froakie;
-import org.unijorge.team6.Eevee;
-import org.unijorge.team6.Tackle;
+import org.unijorge.team8.Eevee;
 
 public class Main {
     public static void main(String[] args) {

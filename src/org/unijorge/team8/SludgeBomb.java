@@ -1,4 +1,4 @@
-package org.unijorge.team6;
+package org.unijorge.team8;
 
 import org.unijorge.core.Ataque;
 import org.unijorge.core.interfaces.Venenoso;
