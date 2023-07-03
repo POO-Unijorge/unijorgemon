@@ -4,6 +4,7 @@ import org.unijorge.core.Pokemon;
 import org.unijorge.team1.Scyter;
 import org.unijorge.team1.Swarm;
 import org.unijorge.team5.Froakie;
+import org.unijorge.team5.Fennekin;
 import org.unijorge.team8.Eevee;
 
 public class Main {
@@ -24,6 +25,7 @@ public class Main {
         Arena arena = new Arena(scyter, eevee);
 
         //Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10);
+        //Bubbles bubble = new Bubbles(20)
         
         arena.start();
         
