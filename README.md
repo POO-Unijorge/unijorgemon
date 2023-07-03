@@ -6,6 +6,7 @@
     <li><a href="#equipe-4">Equipe 4</a></li>
     <li><a href="#equipe-5">Equipe 5</a></li>
     <li><a href="#equipe-6">Equipe 6</a></li>
+    <li><a href="#equipe-8">Equipe 8</a></li>
 </ul>
 
 <h2 id="#eqp1">EQUIPE 1 👨‍🏫</h2>
@@ -54,3 +55,10 @@
 |Marlla Sousa| Mxrlla|
 |Jairo Luigi|Jairolu565 |
 |Ricardo Henrique|Carto100 |
+
+
+<h2 id="#eqp8">EQUIPE 8</h2>
+
+| NOME | USERNAME
+|:-------|:-------|
+| Nathan de Oliveira | natmichel |
