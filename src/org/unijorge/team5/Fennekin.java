@@ -14,7 +14,7 @@ import org.unijorge.core.interfaces.Fogo;
     }
 
     void a_blaze(){
-      getAtk().setDano(getAtk().getDano()+10);
+      getAtk().setDano(getAtk().getDano()+20);
     }
      public void setHp(int hp){
         if(hp < 20){
