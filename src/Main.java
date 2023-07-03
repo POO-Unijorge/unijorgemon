@@ -25,7 +25,9 @@ public class Main {
         Arena arena = new Arena(scyter, eevee);
 
         //Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10);
-        //Bubbles bubble = new Bubbles(20)
+        //Bubbles bubble = new Bubbles(20, "Bubbles", "Agua", 10);
+        //Fennekin p2 = new Fennekin(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10);
+        //Ember ember = new Ember(20, "Bubbles", "Agua", 10);
         
         arena.start();
         
