@@ -1,7 +1,7 @@
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.enums.Sexo;
-import org.unijorge.core.interfaces.Normal;
+import org.unijorge.core.interfaces.Fogo;
 
 public class Charmander extends Pokemon implements Fogo{
 
