@@ -1,5 +1,5 @@
 package org.unijorge.core.interfaces;
 
-interface Noturno{
+public interface Noturno{
     
 }

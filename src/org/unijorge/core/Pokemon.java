@@ -110,7 +110,40 @@ public abstract class Pokemon extends Animal {
         //depois coloquem um random para variar
         return this.getSpd();
     }
-
+    /**
+     * @deprecated
+     * @param idade
+     * @param peso
+     * @param tamanho
+     * @param sexo
+     * @param nomeCientifico
+     * @param level
+     * @param levelProgress
+     * @param hp
+     * @param atk
+     * @param def
+     * @param spd
+     * @param acuracia
+     * @param evasao
+     */
+    public Pokemon(
+        int idade, double peso, double tamanho, Sexo sexo,
+        String nomeCientifico, int level, int levelProgress,
+        int hp, Ataque atk, int def, int spd
+    ) {
+        super(idade, peso, tamanho, sexo, nomeCientifico);
+        //tirar isso daqui!!! depois...
+        this.acuracia = 100;
+        this.evasao = 100;
+        ///
+        this.level = level;
+        this.levelProgress = levelProgress;
+        this.hp = hp;
+        this.atk = atk;
+        this.def = def;
+        this.spd = spd;
+    }
+    
     public Pokemon(
         int idade, double peso, double tamanho, Sexo sexo,
         String nomeCientifico, int level, int levelProgress,
@@ -127,6 +160,10 @@ public abstract class Pokemon extends Animal {
         this.atk = atk;
         this.def = def;
         this.spd = spd;
+    }
+
+    public Pokemon(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level2,
+            int levelProgress2, int hp2, Ataque atk2, int def2, int spd2, int acuracia2) {
     }
 
     @Override

@@ -2,6 +2,7 @@ package org.unijorge.core;
 
 import java.util.ArrayList;
 
+import org.unijorge.core.enums.Sexo;
 import org.unijorge.utils.Utils;
 
 public class Ataque {
@@ -35,6 +36,10 @@ public class Ataque {
         this.dano = dano;
         this.nome = nome;
         this.pBaseAtaque = pBaseAtaque;
+    }
+
+    public Ataque(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level,
+            int levelProgress, int hp, Ataque atk, int def, int spd, int acuracia) {
     }
 
     /**

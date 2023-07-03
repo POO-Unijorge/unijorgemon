@@ -15,7 +15,7 @@ class Pikachu {
         return hp;
     }
 }
-
+/*
 public class Main {
     public static void main(String[] args) {
         Pikachu pikachu = new Pikachu(100); // Cria um Pikachu com 100 de HP
@@ -26,3 +26,4 @@ public class Main {
         System.out.println("HP restante do Pikachu: " + remainingHp);
     }
 }
+*/

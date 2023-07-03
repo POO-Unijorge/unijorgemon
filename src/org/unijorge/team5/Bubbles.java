@@ -12,10 +12,6 @@ public class Bubbles extends Ataque implements Agua {
         super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd, acuracia);
         //TODO Auto-generated constructor stub
     }
+ 
 
-    @Override
-    public String desenhoPokemon() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'desenhoPokemon'");
-    }
 }

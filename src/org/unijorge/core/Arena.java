@@ -75,13 +75,13 @@ public class Arena {
     }
     Scanner sac = new Scanner(System.in);
     private void batalha(){
-        char respota = 'f';
+        String respota = "nao";
         int indice = 0;
         //loop ta infinito... nao vou consertar
-        while(respota != 's'){
+        while(respota != "sair"){
             System.out.println("Atacante atual: " + arPokemon.get(indice).getNomeCientifico());
             System.out.println("Digite sair");
-            sac.nextLine();
+            respota = sac.nextLine();
             ++indice;
             
             if(indice > 1)
