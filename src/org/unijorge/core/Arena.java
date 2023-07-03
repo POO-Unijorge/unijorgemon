@@ -78,7 +78,7 @@ public class Arena {
         String respota = "nao";
         int indice = 0;
         //loop ta infinito... nao vou consertar
-        while(respota != "sair"){
+        while(!respota.equals("sair")){
             System.out.println("Atacante atual: " + arPokemon.get(indice).getNomeCientifico());
             System.out.println("Digite sair");
             respota = sac.nextLine();
