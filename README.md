@@ -28,7 +28,7 @@
 | NOME | USERNAME
 |:-------|:-------|
 | Ronielly Santos | RoniSuper |
-| Gabriel Cerqueira |  |
+| Gabriel Cerqueira | GabrielCerqm |
 | Karina Mattos | kprotti |
 
 <h2 id="#eqp4">EQUIPE 4</h2>

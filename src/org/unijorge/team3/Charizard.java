@@ -1,10 +1,11 @@
 package org.unijorge.team3;
+
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.enums.Sexo;
 import org.unijorge.core.interfaces.Fogo;
 
-public class Charizard extends Pokemon{
+public class Charizard extends Pokemon implements Fogo{
 
 	public Charizard (int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level,
 			int levelProgress, int hp, Ataque atk, int def, int spd) {
@@ -14,15 +15,12 @@ public class Charizard extends Pokemon{
 	public void setIdade(int idade) {
 		this.idade = 12;
 	}
-	
-	public void setPeso(double peso) {
-		this.peso = 90.5;
-	}
-	
-	public void setTamanho(double tamanho) {
-		this.tamanho = 1.7;
-	}
-	
+	    public void setPeso(){
+			this.peso = 50;
+		}
+		public void setTamanho(){
+			this.tamanho = 1.70;
+		}
 
 	    public String desenhoPokemon(){
         return "(*)_(*)";

@@ -3,18 +3,18 @@ import org.unijorge.core.Ataque;
 import org.unijorge.core.interfaces.Normal;
 
 public class Trace extends Ataque implements Normal{
-    private String nomeHabilidade = "Trace";
+   
 
     public Trace(int dano, String nome, double pBaseAtaque) {
         super(dano, nome, pBaseAtaque);
     }
 
     public String getNomeHabilidade() {
-        return nomeHabilidade;
+        return nome;
     }
 
-    public void setNomeHabilidade(String nomeHabilidade) {
-        this.nomeHabilidade = nomeHabilidade;
+    public void setNomeHabilidade(String nome) {
+        this.nome = nome;
     }
 
 }
