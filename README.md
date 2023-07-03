@@ -62,3 +62,4 @@
 | NOME | USERNAME
 |:-------|:-------|
 | Nathan de Oliveira | natmichel |
+| José Renan | renansbernardo |
