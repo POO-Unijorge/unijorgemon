@@ -15,10 +15,25 @@ public class Charizard extends Pokemon{
 		    this.idade = 12;
 	}
 	    public void setPeso(){
-			this.peso = 50;
+			this.peso = 90.5;
 		}
 		public void setTamanho(){
 			this.tamanho = 1.70;
+		}
+		public void setAtk(){
+			this.atk;
+		}
+		public int getIdade(){
+			return idade;
+			}
+        public double getPeso(){
+			return peso;
+		}
+		public double getTamanho(){
+			return tamanho;
+		}
+		public Ataque getAtk(){
+			return atk;
 		}
 
 	    public String desenhoPokemon(){
