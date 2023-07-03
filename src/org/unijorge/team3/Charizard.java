@@ -15,6 +15,8 @@ public class Charizard extends Pokemon{
         return "(*)_(*)";
 
     } 
-        
+   {
+	setHp(MAX_HP);
+   }
 
 }
