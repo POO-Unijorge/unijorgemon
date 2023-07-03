@@ -1,5 +1,5 @@
 package org.unijorge.core.interfaces;
 
-public interface Fogo {
+public class Pedra {
     
 }
