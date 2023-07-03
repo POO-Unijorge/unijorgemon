@@ -6,10 +6,10 @@ import org.unijorge.core.enums.Sexo;
 import org.unijorge.utils.Utils;
 
 public class Ataque {
-    private int dano;
-    private String nome;
-    private String tipo;    
-    private double pBaseAtaque;
+    protected int dano;
+    protected String nome;
+    protected String tipo;    
+    protected double pBaseAtaque;
 
     //não precisa por o nome do tipo mais é feito automaticamente
     /**

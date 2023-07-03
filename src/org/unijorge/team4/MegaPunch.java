@@ -7,4 +7,4 @@ public class MegaPunch extends Ataque implements Lutador{
     public MegaPunch(int dano, String nome, String tipo, double pBaseAtaque) {
         super(dano, nome, tipo, pBaseAtaque);
     }
-
+}

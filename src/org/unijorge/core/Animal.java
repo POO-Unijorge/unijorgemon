@@ -7,7 +7,7 @@ public abstract class Animal {
     private double peso;
     private double tamanho;
     private Sexo sexo;
-    private String nomeCientifico;
+    protected String nomeCientifico;
     private String condicao;
 
 

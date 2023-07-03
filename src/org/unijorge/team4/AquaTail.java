@@ -4,6 +4,7 @@ import org.unijorge.core.interfaces.Agua;
 
 public class AquaTail extends Ataque implements Agua{
 
+    private static final String AquaTail = null;
     public AquaTail(int dano, String nome, String tipo, double pBaseAtaque) {
         super(dano, nome, tipo, pBaseAtaque);
     }

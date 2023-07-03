@@ -8,15 +8,15 @@ import org.unijorge.utils.Utils;
 // OS TIPOS DOS ATAQUES SERÃO CORRESPONDENTES AOS TIPOS DOS POKEMON (Ex. Tipo ÁGUA == Ataque ÁGUA)
 
 public abstract class Pokemon extends Animal {
-    private int level;
-    private int levelProgress;
-    private int hp;
-    private Ataque atk;
-    private int def;
-    private int spd;
+    protected int level;
+    protected int levelProgress;
+    protected int hp;
+    protected Ataque atk;
+    protected int def;
+    protected int spd;
     //Colocar Evasao do Pokemon Mediante
-    private int evasao;
-    private int acuracia;
+    protected int evasao;
+    protected int acuracia;
     public static int MAX_ATK= 10;
     public static int MAX_HP= 10;
     public static int MAX_DEF= 10;
