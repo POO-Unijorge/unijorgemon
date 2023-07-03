@@ -11,22 +11,39 @@ public class Charizard extends Pokemon{
 		super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd);
 	}
     
-	    public void setIdade(){
-		    this.idade = 12;
+	public void setIdade(int idade) {
+		this.idade = 12;
 	}
-	    public void setPeso(){
-			this.peso = 50;
-		}
-		public void setTamanho(){
-			this.tamanho = 1.70;
-		}
+	
+	public void setPeso(double peso) {
+		this.peso = 90.5;
+	}
+	
+	public void setTamanho(double tamanho) {
+		this.tamanho = 1.7;
+	}
+	
 
 	    public String desenhoPokemon(){
         return "(*)_(*)";
 
-    } 
-   {
-	setHp(MAX_HP);
-   }
+    	} 
 
-}
+		public void setHp(int hp) {
+			this.hp = 50;
+		}
+
+		public void setlevelProgress(int levelProgress) {
+			this.levelProgress = 0;
+		}
+		
+		public void setLevel(int level) {
+			if (levelProgress == 100) {
+				this.level = 1 + 1;
+			} else {
+				this.level = level;
+			}
+		}
+		
+
+
