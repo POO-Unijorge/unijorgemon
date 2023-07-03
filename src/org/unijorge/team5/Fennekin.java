@@ -18,7 +18,7 @@ import org.unijorge.core.interfaces.Fogo;
     }
      public void setHp(int hp){
         if(hp < 20){
-           a_torrent(); 
+           a_blaze(); 
         }
      }
 
