@@ -1,5 +1,4 @@
 package org.unijorge.team3;
-
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
 import org.unijorge.core.enums.Sexo;
@@ -11,15 +10,14 @@ public class Charizard extends Pokemon implements Fogo{
 			int levelProgress, int hp, Ataque atk, int def, int spd) {
 		super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd);
 	}
-    
-	public void setIdade(int idade) {
-		this.idade = 12;
+		public void setIdade(int idade) {
+		super.setIdade(12+78);
 	}
-	    public void setPeso(){
-			this.peso = 50;
+	    public void setPeso(double peso){
+		super.setPeso(50);
 		}
 		public void setTamanho(){
-			this.tamanho = 1.70;
+			super. setTamanho(1.7);
 		}
 
 	    public String desenhoPokemon(){
@@ -42,6 +40,57 @@ public class Charizard extends Pokemon implements Fogo{
 				this.level = level;
 			}
 		}
+
+		public class Fireblast extends Ataque implements Fogo {
+			private int dano;
+			private String nome;
+			private String tipo;
+			private double pBaseAtaque;
+		
+			public Fireblast(int dano, String nome, String tipo, double pBaseAtaque) {
+				super(dano, nome, tipo, pBaseAtaque);
+				this.dano = dano;
+				this.nome = nome;
+				this.tipo = tipo;
+				this.pBaseAtaque = pBaseAtaque;
+			}
+		
+			// Métodos "get" e "set" para os atributos
+			public int getDano() {
+				return dano;
+			}
+		
+			public void setDano(int dano) {
+				this.dano = 120;
+			}
+		
+			public String getNome() {
+				return nome;
+			}
+		
+			public void setNome(String nome) {
+				this.nome = "Fireblast";
+			}
+		
+			public String getTipo() {
+				return tipo;
+			}
+		
+			public void setTipo(String tipo) {
+				this.tipo = "Fogo";
+			}
+		
+			public double getPBaseAtaque() {
+				return pBaseAtaque;
+			}
+		
+			public void setPBaseAtaque(double pBaseAtaque) {
+				this.pBaseAtaque = 15;
+			}
+		}
+		
+}
+
 		
 
 
