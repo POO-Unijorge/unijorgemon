@@ -6,10 +6,17 @@ import org.unijorge.core.enums.Sexo;
 import org.unijorge.utils.Utils;
 
 public class Ataque {
+<<<<<<< HEAD
+    private int dano;
+    private String nome;
+    private String tipo;    
+    private int pBaseAtaque;
+=======
     protected int dano;
     protected String nome;
     protected String tipo;    
     protected double pBaseAtaque;
+>>>>>>> b8effc9f7a91f32c7d0aa3c5345ba0273692b99d
 
     //não precisa por o nome do tipo mais é feito automaticamente
     /**
@@ -19,7 +26,7 @@ public class Ataque {
      * @param tipo
      * @param pBaseAtaque
      */
-    public Ataque(int dano, String nome, String tipo, double pBaseAtaque){
+    public Ataque(int dano, String nome, String tipo, int pBaseAtaque){
         this.dano = dano;
         this.nome = nome;
         this.tipo = retornaTipoDoAtaque().get(0).toString();
@@ -32,7 +39,7 @@ public class Ataque {
      * @param nome
      * @param pBaseAtaque
      */
-    public Ataque(int dano, String nome, double pBaseAtaque){
+    public Ataque(int dano, String nome, int pBaseAtaque){
         this.dano = dano;
         this.nome = nome;
         this.pBaseAtaque = pBaseAtaque;
@@ -95,7 +102,7 @@ public class Ataque {
      * Retorna o ponto base do ataque
      * @return
      */
-    public double getpBaseAtaque() {
+    public int getpBaseAtaque() {
         return this.pBaseAtaque;
     }
 
@@ -103,7 +110,7 @@ public class Ataque {
      * ajusta o pbase ataque
      * @param pBaseAtaque
      */
-    public void setpBaseAtaque(double pBaseAtaque) {
+    public void setpBaseAtaque(int pBaseAtaque) {
         this.pBaseAtaque = pBaseAtaque;
     }
 
