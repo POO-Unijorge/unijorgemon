@@ -24,8 +24,9 @@ public class Main {
         Arena arena = new Arena(scyter, eevee);
 
         //Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10);
-        
+
         arena.start();
+        
         
         //Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10, 0);
     }

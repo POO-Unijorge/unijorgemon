@@ -33,7 +33,7 @@ public class Scyter extends Pokemon implements Inseto{
         super(idade, peso, tamanho, sexo, nomeCientifico, level, levelProgress, hp, atk, def, spd, acuracia, evasao);
         //TODO Auto-generated constructor stub
     }
-
+/* 
     public void setHp(int hp){
         if(getHp()<50){
             if(getSpd()+10<95){
@@ -45,7 +45,7 @@ public class Scyter extends Pokemon implements Inseto{
             setHp(getHp()+4);
         }
     }
-
+*/
     public String desenhoPokemon(){
         return "(*)_(*)";
 
