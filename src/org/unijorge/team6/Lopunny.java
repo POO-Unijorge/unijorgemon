@@ -49,7 +49,38 @@ public class Lopunny extends Pokemon implements Normal{
             setHp(superLopunny.getHp());
             setAtk(superLopunny.getAtk());
         }
-
         
     }
+        public class JumpKick extends Ataque implements Normal{
+            public JumpKick(int dano, String nome, String tipo, double pBaseAtaque) {
+                super(dano, nome, tipo, pBaseAtaque);
+                }
+                public int getDano() {
+                    
+                    return super.getDano();
+                }
+                public void setDano(int dano) {
+                    super.setDano(dano);
+                }
+                public String getNome() {
+                    
+                    return super.getNome();
+                }
+                public String getTipo() {
+                    
+                    return super.getTipo();
+                }
+                public void setNome(String nome) {
+
+                    super.setNome(nome);
+                }
+                public double getpBaseAtaque() {
+                    
+                    return super.getpBaseAtaque();
+                }
+                public void setpBaseAtaque(double pBaseAtaque) {
+                  
+                    super.setpBaseAtaque(pBaseAtaque);
+                }
+        }
 }
