@@ -9,6 +9,11 @@ public class FoulPlay extends Ataque implements Dark{
         //TODO Auto-generated constructor stub
     }
 
+    public void FouPlayAtk() {
+        int damage = 95;
+        hp -= damage;
+    }
+
 
 
 }
