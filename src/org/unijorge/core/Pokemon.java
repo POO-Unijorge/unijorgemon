@@ -162,6 +162,10 @@ public abstract class Pokemon extends Animal {
         this.spd = spd;
     }
 
+    public Pokemon(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level2,
+            int levelProgress2, int hp2, Ataque atk2, int def2, int spd2, int acuracia2) {
+    }
+
     @Override
     public String toString() {
         return "Pokemon [level=" + level + ", levelProgress=" + levelProgress + ", hp=" + hp + ", atk=" + atk + ", def="

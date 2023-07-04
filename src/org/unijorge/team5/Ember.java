@@ -13,9 +13,6 @@ public class Ember extends Ataque implements Fogo {
         //TODO Auto-generated constructor stub
     }
 
-    @Override
-    public String desenhoPokemon() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'desenhoPokemon'");
+
     }
-}
+
