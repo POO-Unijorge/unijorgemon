@@ -1,6 +1,7 @@
 import org.unijorge.core.Arena;
 import org.unijorge.core.Ataque;
 import org.unijorge.core.Pokemon;
+import org.unijorge.core.enums.Sexo;
 import org.unijorge.team1.Scyter;
 import org.unijorge.team1.Swarm;
 import org.unijorge.team5.Froakie;
@@ -30,10 +31,14 @@ public class Main {
         //Fennekin p2 = new Fennekin(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10);
         //Ember ember = new Ember(20, "Bubbles", "Agua", 10);
         
-        //Porygon porygon = new Porygon(0, 0, 0, null, null, 0, 0, 0, null, 0, 0, 0, 0);
-        //System.out.println(porygon.getNomeHabilidade());
+        Porygon porygon = new Porygon(21, 120, 10, Sexo.M, "Porygon", 1, 0, 10, 10, 10, 10, 10);
+        System.out.println(porygon.getAtk().getDano());
+        System.out.println(porygon.getAtk().getNome());
+        System.out.println(porygon.getAtk().getpBaseAtaque());
+        System.out.println(porygon.getAcuracia());
+        
 
-        arena.start();
+        //arena.start();
         
         
         //Froakie p2 = new Froakie(10, 30, 40, null, null, 1, 0, 30, atkS, 40, 60, 10, 0);

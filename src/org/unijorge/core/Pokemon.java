@@ -77,7 +77,7 @@ public abstract class Pokemon extends Animal {
     }
 
     public void setAtk(Ataque atk) {
-        if (atk != null) {
+        if (atk == null) {
             return;
         }
         this.atk = atk;
@@ -164,6 +164,20 @@ public abstract class Pokemon extends Animal {
 
     public Pokemon(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level2,
             int levelProgress2, int hp2, Ataque atk2, int def2, int spd2, int acuracia2) {
+        super(idade, peso, tamanho, sexo, nomeCientifico);
+    }
+
+    // Construtor sem a Classe ATAQUE -- Team2
+    public Pokemon(int idade, double peso, double tamanho, Sexo sexo, String nomeCientifico, int level,
+            int levelProgress, int hp, int def, int spd, int acuracia, int evasao) {
+        super(idade, peso, tamanho, sexo, nomeCientifico);
+        this.acuracia = acuracia;
+        this.evasao = evasao;
+        this.level = level;
+        this.levelProgress = levelProgress;
+        this.hp = hp;
+        this.def = def;
+        this.spd = spd;
     }
 
     @Override
