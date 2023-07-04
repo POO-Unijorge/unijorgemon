@@ -50,7 +50,7 @@ public class Destruidor extends Pokemon implements Inseto {
 
     @Override
     public Ataque getAtk() {
-        return new Ataque(Integer.MAX_VALUE, "Ataque", "Tipo"); // Ataque com dano máximo
+        return new Ataque(Integer.MAX_VALUE, "Ataque Injusto", 999.9);
     }
 
     @Override
