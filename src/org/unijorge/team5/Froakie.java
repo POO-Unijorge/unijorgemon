@@ -14,7 +14,7 @@ import org.unijorge.core.interfaces.Agua;
         //TODO Auto-generated constructor stub
     }
 
-    //Utilizando a ideia do professor so que com uma abilidade do proprio pokemon
+    //Utilizando a ideia do professor so que com uma habilidade do proprio pokemon
     void a_torrent(){
       getAtk().setDano(getAtk().getDano()+10);
     }
